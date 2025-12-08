@@ -196,18 +196,7 @@ Despliegue completo de gestor de contraseñas:
 
 ---
 
-### 🎓 Laboratorio SSH Pivoting para ASIR
 
-Creación de entorno reproducible para 30+ estudiantes:
-- ✅ Docker Compose con 3 redes simulando DMZ + Internal
-- ✅ 8 ejercicios progresivos con soluciones
-- ✅ Scripts de deploy/cleanup automatizados
-- ✅ Documentación completa en español
-- ✅ Despliegue en <5 minutos por estudiante
-
-**Resultado:** 100% de alumnos completaron los ejercicios exitosamente
-
----
 
 ## 📫 Contacto & Colaboración
 
