@@ -100,7 +100,6 @@ actual_setup:
 
 ---
 
-## 📊 GitHub Stats
 
 ## 📊 GitHub Stats
 
