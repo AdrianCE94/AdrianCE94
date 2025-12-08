@@ -103,19 +103,10 @@ actual_setup:
 
 ## 📊 GitHub Stats
 
-<div align="center">
-
-<img 
-  width="49%" 
-  src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=AdrianCE94&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" 
-/>
-
-<img 
-  width="49%" 
-  src="https://streak-stats.demolab.com?user=AdrianCE94&theme=tokyonight&hide_border=true" 
-/>
-
-</div>
+<p align="center">
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=AdrianCE94&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="49%" />
+  <img src="https://streak-stats.demolab.com?user=AdrianCE94&theme=tokyonight&hide_border=true" width="49%" />
+</p>
 
 
 
