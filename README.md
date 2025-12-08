@@ -12,7 +12,6 @@
 nombre: "Adrián CE"
 ubicación: "Sevilla, Andalucía 🇪🇸"
 rol_principal: "Systems Administrator & DevOps Engineer"
-también_soy: "Instructor de Hacking Ético y Ciberseguridad (ASIR)"
 filosofía: "The most powerful tool we have is automation"
 
 especialización:
@@ -33,20 +32,7 @@ especialización:
     - "SSH Pivoting y movimiento lateral"
     - "Hardening de sistemas (DNS, SSH, firewalls)"
     - "Laboratorios CTF reproducibles"
-  
-  educación:
-    - "Instructor ASIR (Administración de Sistemas)"
-    - "Creador de labs prácticos con Docker"
-    - "Documentación técnica en español"
-    - "Ejercicios progresivos de ciberseguridad"
-
-actual_setup:
-  homelab:
-    hardware: "Firebat T8 Pro Plus (Proxmox VE 9)"
-    sistemas: "Debian 13, contenedores LXC"
-    networking: "Dual NIC, Tailscale VPN, No-IP DDNS"
-    servicios: "Vaultwarden, Traefik, NextDNS"
-  
+ 
   herramientas_diarias:
     - "Docker & Docker Compose"
     - "SSH, ProxyChains, systemd"
@@ -102,66 +88,9 @@ actual_setup:
 
 ---
 
-## 🎓 Proyectos Destacados
-
-### 🔐 [SSH Pivoting Lab](https://github.com/AdrianCE94/ssh-pivoting-lab)
-**Laboratorio completo de pivoting SSH para estudiantes de hacking ético**
-
-Entorno Docker totalmente reproducible con 3 contenedores y 2 redes aisladas para practicar técnicas de movimiento lateral en redes segmentadas.
-
-```bash
-git clone https://github.com/AdrianCE94/ssh-pivoting-lab.git
-cd ssh-pivoting-lab && ./scripts/deploy.sh
-```
-
-**🛠️ Tech:** Docker Compose, SSH Tunneling, Networking, Bash  
-**📚 Contenido:** 8 ejercicios progresivos, documentación completa, soluciones para instructores  
-**🎯 Ideal para:** Estudiantes ASIR, pentesters, competiciones CTF
-
----
-
-## 🏠 Mi Homelab
-
-Infraestructura personal para aprendizaje y experimentación:
-
-```
-┌─────────────────────────────────────────────────┐
-│         Firebat T8 Pro Plus Mini PC            │
-│              Proxmox VE 9.1                     │
-│  ┌──────────────────────────────────────────┐  │
-│  │  VM: Debian 13 "kaito" (Main Server)    │  │
-│  │  - Vaultwarden (password manager)       │  │
-│  │  - Traefik (reverse proxy + SSL)        │  │
-│  │  - Docker containers                     │  │
-│  │  - Tailscale VPN                         │  │
-│  └──────────────────────────────────────────┘  │
-│  ┌──────────────────────────────────────────┐  │
-│  │  Kali Linux VMs (labs de pentesting)    │  │
-│  └──────────────────────────────────────────┘  │
-│  ┌──────────────────────────────────────────┐  │
-│  │  Contenedores LXC (servicios ligeros)   │  │
-│  └──────────────────────────────────────────┘  │
-└─────────────────────────────────────────────────┘
-        │
-        ├─── eth0: 192.168.1.x (LAN principal)
-        ├─── eth1: 192.168.100.x (Red segmentada)
-        └─── Tailscale: 100.x.x.x (VPN mesh)
-
-Internet ← DIGI (Post-CGNAT) ← No-IP DDNS ← adriance.es
-```
-
-**Enfoque:**
-- ✅ Infrastructure as Code
-- ✅ Hardening de servicios (SSH, DNS, firewall)
-- ✅ Self-hosting seguro
-- ✅ Automatización con scripts
-- ✅ Segmentación de red estratégica
-
----
-
 ## 💼 Experiencia & Habilidades
 
-### 👨‍🏫 Instructor de Hacking Ético (ASIR)
+###  Hacking Ético
 
 **Especialidad:** Ciberseguridad ofensiva y defensiva
 
@@ -170,14 +99,6 @@ Internet ← DIGI (Post-CGNAT) ← No-IP DDNS ← adriance.es
 - 🔐 Enseñanza de técnicas de pivoting, lateral movement, explotación
 - 🎯 Preparación para certificaciones y CTFs
 - 📚 Documentación técnica completa en español
-
-**Laboratorios creados:**
-- SSH Pivoting (Docker multi-network)
-- DNS Tunneling con iodine
-- Lateral Movement con ProxyChains
-- Network segmentation bypassing
-
----
 
 ### ⚙️ Systems Administrator & DevOps
 
@@ -312,7 +233,6 @@ Creación de entorno reproducible para 30+ estudiantes:
 ## 🏆 Certificaciones & Formación
 
 - 📜 Técnico Superior en Administración de Sistemas Informáticos y Redes (ASIR)
-- 🔐 Instructor certificado de Hacking Ético
 - 🐧 Especialista en Linux System Administration
 - 🐳 Docker & Containerization
 - 🌐 Networking & Security
