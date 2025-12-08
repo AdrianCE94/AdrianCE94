@@ -369,7 +369,7 @@ $ exit
 
 <div align="center">
 
-![Visitor Count](https://profile-counter.glitch.me/AdrianCE94/count.svg)
+![Visitor Count](https://komarev.com/ghpvc/?username=AdrianCE94&color=blue&style=flat)
 
 ### ⭐ Si encuentras útil alguno de mis proyectos, ¡considera darle una estrella!
 
